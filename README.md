@@ -1,1 +1,1 @@
-# ruskBlog.github.io
+#ruskBlog

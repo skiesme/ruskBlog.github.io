@@ -1,0 +1,87 @@
+# Site settings
+title: 如花与食客  #你博客的标题
+SEOTitle: 如花与食客 | 王那么一个振  #显示在浏览器上搜索的时候显示的标题
+header-img: img/home-bg.jpg #显示在首页的背景图片
+email: wangzhenzy@outlook.com
+description: "花非花，食客不食。" #网站介绍
+keyword: "如花与食客,rusk,GitHub,王那么一个振,博客,Blog,iOS" #关键词
+# url: "https://fedemo.top"          # your host, for absolute URL
+# baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+# github_repo: "fedemo.github.io" # you code repository
+
+# 是否托管在Coding_Pages
+Coding_Pages: true
+
+#  是否开启百度自动推送JS代码
+baidu_js_push: false
+
+# Sidebar settings侧边栏
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "花非花，食客不食。"
+sidebar-avatar: /img/avatar-wz.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# SNS settings社交账号
+RSS: false
+# weibo_username:
+# zhihu_username:    fedemo
+# github_username:    tooYongToosimple
+# facebook_username:
+# twitter_username:   Fedemo10
+# coding_username: fedemo
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+# Analytics settings 百度统计track_id
+# Baidu Analytics
+ba_track_id: c09d721568a1698d7d01e41fd2d12650
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+#search plugins
+search: true                            # 是否使用搜索插件
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+# Friends好友链接
+friends: [
+    {
+        title: "Fe Blog",
+        href: "https://github.com/Huxpro"
+    },{
+        title: "interview",
+        href: "https://fedemo.github.io/interview/"
+    },{
+        title: "Fe Coding",
+        href: "https://coding.net/u/fedemo/project"
+    },{
+        title: "BY Blog",
+        href: "http://qiubaiying.top/"
+    }
+]
