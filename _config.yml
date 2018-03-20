@@ -57,6 +57,17 @@ highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
+# 评论系统
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: '1854a1d4899428e1dffe'    #生成的clientID
+  clientSecret: 'ae31bce74a4de54d3440f239bb2a7fb07794b3f9'   #同上
+  repo: ruskBlog    #仓库名称
+  owner: skiesme    #github用户名
+  admin: skiesme
+
+
 # Analytics settings 百度统计track_id
 # Baidu Analytics
 ba_track_id: c09d721568a1698d7d01e41fd2d12650
