@@ -10,7 +10,7 @@ keyword: "如花与食客,rusk,GitHub,王那么一个振,博客,Blog,iOS" #关�
 # github_repo: "fedemo.github.io" # you code repository
 
 # 是否托管在Coding_Pages
-Coding_Pages: true
+Coding_Pages: false
 
 #  是否开启百度自动推送JS代码
 baidu_js_push: false
@@ -23,13 +23,17 @@ sidebar-avatar: /img/avatar-wz.jpg      # use absolute URL, seeing it's used in 
 
 # SNS settings社交账号
 RSS: false
-# weibo_username:
+github_username:    skiesme
+weibo_username: u/5988204856
 # zhihu_username:    fedemo
-# github_username:    tooYongToosimple
 # facebook_username:
 # twitter_username:   Fedemo10
 # coding_username: fedemo
 
+
+# Theme info
+theme_username : FeDemo
+theme_github_repo : fedemo.github.io
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
