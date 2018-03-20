@@ -72,20 +72,13 @@ search: true                            # 是否使用搜索插件
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
 # Friends好友链接
 friends: [
     {
         title: "Fe Blog",
-        href: "https://github.com/Huxpro"
+        href: "https://fedemo.top"
     },{
-        title: "interview",
-        href: "https://fedemo.github.io/interview/"
-    },{
-        title: "Fe Coding",
-        href: "https://coding.net/u/fedemo/project"
-    },{
-        title: "BY Blog",
-        href: "http://qiubaiying.top/"
+        title: "Hux Blog",
+        href: "http://huangxuan.me/"
     }
 ]
