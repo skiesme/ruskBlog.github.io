@@ -70,7 +70,7 @@ body>main {
 
 .userCard .text {
   float: left;
-  width: 470px;
+  width: auto;
 }
 
 .userCard .text .welcome {
@@ -104,12 +104,12 @@ body>main {
 }
 
 .userCard .text>dl>dt {
-  width: 30%;
+  width: 25%;
   font-weight: bold;
 }
 
 .userCard .text>dl>dd {
-  width: 70%;
+  width: 75%;
   color: rgb(157, 169, 198)
 }
 
@@ -177,49 +177,50 @@ main .selfIntroduction {
   font-family: "华文楷体";
 }
 
-body>section.skills {
+footer>section.skills {
   margin-left: auto;
   margin-right: auto;
-  max-width: 940px;
-  margin-top: 75px;
+  max-width: auto;
+  margin-top: 35px;
 }
 
-body>section.skills>h2 {
-  color: rgb(61, 68, 81);
+footer>section.skills>h2 {
+  /* color: rgb(61, 68, 81); */
+  color: white;
   font-size: 35px;
   font-weight: bold;
   text-align: center;
 }
 
-body>section.skills>ol {
+footer>section.skills>ol {
   margin-top: 30px;
   background-color: #fff;
   box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.68);
   padding: 45px 50px 8px;
 }
 
-body>section.skills>ol>li {
+footer>section.skills>ol>li {
   float: left;
   width: 46%;
   margin-bottom: 37px;
 }
 
-body>section.skills>ol>li:nth-child(even) {
+footer>section.skills>ol>li:nth-child(even) {
   margin-left: 8%;
 }
 
-body>section.skills>ol>li>h3 {
+footer>section.skills>ol>li>h3 {
   font-size: 16px;
   line-height: 1.7;
 }
 
-body section.skills ol li .progressBar {
+footer section.skills ol li .progressBar {
   height: 5px;
   background-color: rgb(250, 225, 225);
   border-radius: 2px;
 }
 
-body section.skills ol li .progress {
+footer section.skills ol li .progress {
   background-color: rgb(230, 104, 106);
   border-radius: 2px;
   height: 100%;
