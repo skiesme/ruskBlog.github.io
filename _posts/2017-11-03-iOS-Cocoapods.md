@@ -2,7 +2,7 @@
 layout: post
 title: 'iOS Cocoapods'
 date: 2017-11-03
-author: 王那么一个振
+author: 如花与食客
 catalog:      true
 tags: 
     - CocoaPods
