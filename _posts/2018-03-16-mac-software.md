@@ -2,8 +2,8 @@
 layout: post
 title: 'Mac中的常用软件和工具'
 date: 2018-03-16
-author: 王那么一个振
-catalog:      true
+author: 如花与食客
+catalog: true
 tags: 
     - Mac
 ---

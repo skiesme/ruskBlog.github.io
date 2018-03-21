@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(239, 239, 239);
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@keyframes leftToRight{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+@keyframes submenuSlide{
+  0%{
+    margin-right: 100%;
+    opacity: 0;
+  }
+  100%{
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+
+body>main {
+  margin-top: -340px;
+}
+
+.userCard {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 5px 12px -3px rgba(0, 0, 0, 0.27);
+}
+
+.userCard .profile {
+  padding: 50px;
+}
+
+.userCard .picture {
+  float: left;
+  margin-right: 65px;
+}
+
+.userCard .text {
+  float: left;
+  width: 470px;
+}
+
+.userCard .text .welcome {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 33px;
+  background-color: rgb(230, 104, 106);
+  padding: 4px 17px;
+  color: white;
+}
+
+.userCard .text .welcome .triangle {
+  position: absolute;
+  top: 100%;
+  left: 5px;
+  border: 10px solid transparent;
+  border-top: 0;
+  border-left-color: rgb(230, 104, 106);
+  width: 0;
+}
+
+.userCard .text hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.userCard .text>dl>dt, .userCard .text>dl>dd {
+  float: left;
+  margin-top: 10px;
+}
+
+.userCard .text>dl>dt {
+  width: 30%;
+  font-weight: bold;
+}
+
+.userCard .text>dl>dd {
+  width: 70%;
+  color: rgb(157, 169, 198)
+}
+
+.userCard footer.media {
+  background-color: rgb(230, 104, 106);
+  text-align: center;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.userCard footer.media svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.userCard footer.media a {
+  display: inline-block;
+  width: 40px;
+  border-radius: 50%;
+  margin: 16px;
+  padding: 5px 0;
+}
+
+.userCard footer.media a:hover {
+  background-color: rgb( 207, 93, 95);
+}
+
+main .downloadResume-wrapper {
+  text-align: right;
+  display: block;
+}
+
+main a.downloadResume {
+  margin: 33px 0;
+  color: rgb(61, 68, 81);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  border: 1px solid rgb(205, 207, 209);
+  background-color: rgb(239, 239, 239);
+  padding: 21px 57px;
+  transition: box-shadow 0.2s;
+}
+
+main a.downloadResume:hover {
+  box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
+}
+
+main .selfIntroduction {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 940px;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "华文楷体";
+}
+
+body>section.skills {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  margin-top: 75px;
+}
+
+body>section.skills>h2 {
+  color: rgb(61, 68, 81);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+body>section.skills>ol {
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.68);
+  padding: 45px 50px 8px;
+}
+
+body>section.skills>ol>li {
+  float: left;
+  width: 46%;
+  margin-bottom: 37px;
+}
+
+body>section.skills>ol>li:nth-child(even) {
+  margin-left: 8%;
+}
+
+body>section.skills>ol>li>h3 {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+body section.skills ol li .progressBar {
+  height: 5px;
+  background-color: rgb(250, 225, 225);
+  border-radius: 2px;
+}
+
+body section.skills ol li .progress {
+  background-color: rgb(230, 104, 106);
+  border-radius: 2px;
+  height: 100%;
+}

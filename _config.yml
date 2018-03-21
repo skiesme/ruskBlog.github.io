@@ -1,16 +1,16 @@
 # Site settings
 title: 如花与食客  #你博客的标题
-SEOTitle: 如花与食客 | 王那么一个振  #显示在浏览器上搜索的时候显示的标题
+SEOTitle: 如花与食客 | rusk  #显示在浏览器上搜索的时候显示的标题
 header-img: img/home-bg.jpg #显示在首页的背景图片
 email: wangzhenzy@outlook.com
 description: "花非花，食客不食。" #网站介绍
-keyword: "如花与食客,rusk,GitHub,王那么一个振,博客,Blog,iOS" #关键词
-# url: "https://fedemo.top"          # your host, for absolute URL
-# baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-# github_repo: "fedemo.github.io" # you code repository
+keyword: "如花与食客,rusk,GitHub,博客,Blog,iOS" #关键词
+url: "http://t-market.cn/"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "ruskBlog.github.io" # you code repository
 
 # 是否托管在Coding_Pages
-Coding_Pages: true
+Coding_Pages: false
 
 #  是否开启百度自动推送JS代码
 baidu_js_push: false
@@ -23,13 +23,17 @@ sidebar-avatar: /img/avatar-wz.jpg      # use absolute URL, seeing it's used in 
 
 # SNS settings社交账号
 RSS: false
-# weibo_username:
+github_username:    skiesme
+weibo_username: u/5988204856
 # zhihu_username:    fedemo
-# github_username:    tooYongToosimple
 # facebook_username:
 # twitter_username:   Fedemo10
 # coding_username: fedemo
 
+
+# Theme info
+theme_username : FeDemo
+theme_github_repo : fedemo.github.io
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -53,6 +57,17 @@ highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
+# 评论系统
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: '1854a1d4899428e1dffe'    #生成的clientID
+  clientSecret: 'ae31bce74a4de54d3440f239bb2a7fb07794b3f9'   #同上
+  repo: ruskBlog    #仓库名称
+  owner: skiesme    #github用户名
+  admin: skiesme
+
+
 # Analytics settings 百度统计track_id
 # Baidu Analytics
 ba_track_id: c09d721568a1698d7d01e41fd2d12650
@@ -68,20 +83,13 @@ search: true                            # 是否使用搜索插件
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
 # Friends好友链接
 friends: [
     {
         title: "Fe Blog",
-        href: "https://github.com/Huxpro"
+        href: "https://fedemo.top"
     },{
-        title: "interview",
-        href: "https://fedemo.github.io/interview/"
-    },{
-        title: "Fe Coding",
-        href: "https://coding.net/u/fedemo/project"
-    },{
-        title: "BY Blog",
-        href: "http://qiubaiying.top/"
+        title: "Hux Blog",
+        href: "http://huangxuan.me/"
     }
 ]
