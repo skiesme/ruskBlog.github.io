@@ -5,9 +5,9 @@ header-img: img/home-bg.jpg #显示在首页的背景图片
 email: wangzhenzy@outlook.com
 description: "花非花，食客不食。" #网站介绍
 keyword: "如花与食客,rusk,GitHub,博客,Blog,iOS" #关键词
-# url: "https://fedemo.top"          # your host, for absolute URL
-# baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-# github_repo: "fedemo.github.io" # you code repository
+url: "http://t-market.cn/"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "ruskBlog.github.io" # you code repository
 
 # 是否托管在Coding_Pages
 Coding_Pages: false
