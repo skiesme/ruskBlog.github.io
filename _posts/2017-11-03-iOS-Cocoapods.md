@@ -4,8 +4,7 @@ title: 'iOS Cocoapods'
 date: 2017-11-03
 author: 如花与食客
 catalog:      true
-tags: 
-    - CocoaPods
+tags:
     - iOS
 ---
 
