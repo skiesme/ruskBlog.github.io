@@ -87,7 +87,7 @@ service-worker: true
 friends: [
     {
         title: "DailyCSS",
-        href: "http://eden.t-market.cn/"
+        href: "http://dailycss.t-market.cn/"
     },
     {
         title: "Fe Blog",
