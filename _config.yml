@@ -86,9 +86,14 @@ service-worker: true
 # Friends好友链接
 friends: [
     {
+        title: "DailyCSS",
+        href: "http://eden.t-market.cn/"
+    },
+    {
         title: "Fe Blog",
         href: "https://fedemo.top"
-    },{
+    },
+    {
         title: "Hux Blog",
         href: "http://huangxuan.me/"
     }
