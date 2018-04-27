@@ -113,7 +113,7 @@ body>main {
   color: rgb(157, 169, 198)
 }
 
-.userCard footer.media {
+.userCard div.media {
   background-color: rgb(230, 104, 106);
   text-align: center;
 }
@@ -126,13 +126,13 @@ body>main {
   overflow: hidden;
 }
 
-.userCard footer.media svg {
+.userCard div.media svg {
   width: 30px;
   height: 30px;
   fill: white;
 }
 
-.userCard footer.media a {
+.userCard div.media a {
   display: inline-block;
   width: 40px;
   border-radius: 50%;
@@ -140,7 +140,7 @@ body>main {
   padding: 5px 0;
 }
 
-.userCard footer.media a:hover {
+.userCard div.media a:hover {
   background-color: rgb( 207, 93, 95);
 }
 
@@ -177,14 +177,14 @@ main .selfIntroduction {
   font-family: "华文楷体";
 }
 
-footer>section.skills {
+div>section.skills {
   margin-left: auto;
   margin-right: auto;
   max-width: auto;
   margin-top: 35px;
 }
 
-footer>section.skills>h2 {
+div>section.skills>h2 {
   /* color: rgb(61, 68, 81); */
   color: white;
   font-size: 35px;
@@ -192,36 +192,50 @@ footer>section.skills>h2 {
   text-align: center;
 }
 
-footer>section.skills>ol {
+div>section.skills>ol {
   margin-top: 30px;
   background-color: #fff;
   box-shadow: 0px 0px 25px -1px rgba(0, 0, 0, 0.68);
   padding: 45px 50px 8px;
 }
 
-footer>section.skills>ol>li {
+div>section.skills>ol>li {
   float: left;
   width: 46%;
   margin-bottom: 37px;
 }
 
-footer>section.skills>ol>li:nth-child(even) {
+div>section.skills>ol>li:nth-child(even) {
   margin-left: 8%;
 }
 
-footer>section.skills>ol>li>h3 {
+div>section.skills>ol>li>h3 {
   font-size: 16px;
   line-height: 1.7;
 }
 
-footer section.skills ol li .progressBar {
+div section.skills ol li .progressBar {
   height: 5px;
   background-color: rgb(250, 225, 225);
   border-radius: 2px;
 }
 
-footer section.skills ol li .progress {
+div section.skills ol li .progress {
   background-color: rgb(230, 104, 106);
   border-radius: 2px;
   height: 100%;
+}
+
+
+.userCard .full {
+  height: 480px;
+}
+
+.screenShots {
+  width: 100%;
+  height: 100%;
+}
+
+.screenShots iframe {
+  border-width: 0;
 }

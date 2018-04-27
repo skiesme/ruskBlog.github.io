@@ -3,6 +3,8 @@ layout: page
 title: "About"
 nav: true
 header-img: "img/about-bg.jpg"
+iframe:     "http://wangzhenzy.gitee.io/blog_products"
+author:     "如花与食客"
 ---
 
 <!DOCTYPE html>
@@ -17,7 +19,7 @@ header-img: "img/about-bg.jpg"
 
 <body>
   <main>
-    <div class="userCard" id="appInfo">
+    <div class="userCard">
       <div class="profile clearfix">
         <div class="text">
           <h1>如花与食客</h1>
@@ -25,7 +27,7 @@ header-img: "img/about-bg.jpg"
         </div>
       </div>
 
-      <footer class="media">
+      <div class="media">
         <section class="skills" id="siteSkills">
           <h2>技能</h2>
           <ol class="clearfix">
@@ -67,44 +69,73 @@ header-img: "img/about-bg.jpg"
             </li>
           </ol>
         </section>
-      </footer>
+      </div>
 
       <div class="profile clearfix">
         <div class="text">
-          <h1>APP</h1>
+          <p>
+            熟悉iOS开发流程，了解一点安卓，会一点Vue.js
+          </p>
+          <p>正在深入学习Weex 和 RN</p>
+          <P>
+            然后就打算把以前看过的node或php捡起来
+          </P>
+          <p>
+            最后...
+          </p>
+        </div>
+      </div>
+    </div>
 
+    <!-- info -->
+    <hr>
+    <div class="userCard">
+      <div class="profile clearfix">
+        <div class="text">
+          <!-- APP -->
+          <h1>APP</h1>
+          <dl class="clearfix">
+            <dt>xx智能厨房</dt>
+            <dd>与智能厨房对接的APP，分为用户版和商家版：
+              <br>
+              用户版：基于LBS的外卖软件。
+              <br>
+              商家版：在常见外卖商家版APP的基础上，增加了通过MQTT协议对智能厨房部件进行控制的功能。
+            </dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>智柔健康</dt>
+            <dd>基于BLE可以全天候采集人体的体温、心电、心率、呼吸和睡眠等数据的应用。</dd>
+          </dl>
+          <dl class="clearfix">
+            <dt>海藻代购</dt>
+            <dd>集成了直播，买/卖双方通用的购物平台APP。</dd>
+          </dl>
           <dl class="clearfix">
             <dt>来哇</dt>
             <dd>配音娱乐社交平台</dd>
           </dl>
 
+          <!-- 前端 -->
+          <hr>
+          <h1>前端</h1>
           <dl class="clearfix">
-            <dt>海藻代购</dt>
-            <dd>集成了直播，买/卖双方通用的购物平台APP。</dd>
+            <dt>工厂后台管理</dt>
+            <dd>集成了SCADA 和 MES 的工厂后台管理软件。</dd>
           </dl>
 
-          <dl class="clearfix">
-            <dt>智柔健康</dt>
-            <dd>基于BLE可以全天候采集人体的体温、心电、心率、呼吸和睡眠等数据的应用。</dd>
-          </dl>
-
-          <dl class="clearfix">
-            <dt>xx智能厨房</dt>
-            <dd>与智能厨房对接的APP，分为用户版和商家版：
-                <br>
-                用户版：基于LBS的外卖软件。
-                <br>
-                商家版：在常见外卖商家版APP的基础上，增加了通过MQTT协议对智能厨房部件进行控制的功能。
-            </dd>
-          </dl>
         </div>
       </div>
     </div>
-    <hr>
-    
-    <div class="userCard" id="appInfo">
-    </div>
 
+    <!-- iframe -->
+    <hr>
+    <div class="userCard">
+      <div class="full">
+        <iframe class="screenShots" src="{{page.iframe}}"/>
+        </iframe>
+      </div>
+    </div>
   </main>
 
 </body>
