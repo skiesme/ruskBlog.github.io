@@ -60,7 +60,7 @@ kramdown:
 # 评论系统
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: '1854a1d4899428e1dffe'    #生成的clientID
   clientSecret: 'ae31bce74a4de54d3440f239bb2a7fb07794b3f9'   #同上
   repo: ruskBlog    #仓库名称
