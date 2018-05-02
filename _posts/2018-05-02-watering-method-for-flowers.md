@@ -4,7 +4,9 @@ title: '70种花的浇水方法（转）'
 date: 2018-05-02
 author: 如花与食客
 catalog: true
-tags: 养花
+tags: 
+    - 生活
+    - 养花
 ---
 
 ![001](http://ozdw7pyah.bkt.clouddn.com/2018-05-02-flowers001.JPG)

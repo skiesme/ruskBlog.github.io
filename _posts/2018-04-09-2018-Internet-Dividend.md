@@ -4,7 +4,8 @@ title: '2018互联网红利在哪？'
 date: 2018-04-09
 author: 王那么一个振
 catalog: true
-tags: Financial
+tags: 
+    - 其他
 ---
 
 > 本文转自 波旬
