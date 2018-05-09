@@ -2,6 +2,7 @@
 title: 如花与食客  #你博客的标题
 SEOTitle: 如花与食客 | rusk  #显示在浏览器上搜索的时候显示的标题
 header-img: img/home-bg.jpg #显示在首页的背景图片
+header-img-url: http://t-market.cn/img/home-bg.jpg #显示在文章中背景图片
 email: wangzhenzy@outlook.com
 description: "花非花，食客不食。" #网站介绍
 keyword: "如花与食客,rusk,GitHub,博客,Blog,iOS" #关键词
