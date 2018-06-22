@@ -136,7 +136,7 @@ OmniPlan for mac 是Mac OS X平台的的一款非常强大的项目管理软件�
 
 ---
 ### [Maipo](http://weiboformac.sinaapp.com/)
-图拉鼎 出品的全功能新浪微博 macOS 客户端，有自己的Timeline。
+全功能新浪微博 macOS 客户端，有自己的Timeline。
 
 ---
 ### [CleanMyMac](http://www.mycleanmymac.com/)
