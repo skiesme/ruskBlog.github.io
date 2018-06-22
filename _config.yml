@@ -87,6 +87,10 @@ service-worker: true
 # Friends好友链接
 friends: [
     {
+        title: "Car",
+        href: "http://car.t-market.cn/"
+    },
+    {
         title: "DailyCSS",
         href: "http://dailycss.t-market.cn/"
     },
